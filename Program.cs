@@ -1,8 +1,15 @@
 ﻿//İstifadəçidən 5 ədəd daxil etməsini istə və onları massivdə saxla.
 //Daha sonra bu massivdəki elementlərin ümumi cəmini ekrana çıxar.
-//int [] nums = {1,2,3,4,5};
+//int[] nums = new int[5];
 //int sum = 0;
-//foreach( int  i in nums)
+
+//for (int i = 0; i < nums.Length; i++)
+//{
+//    Console.Write("Ədəd daxil et: ");
+//    nums[i] = int.Parse(Console.ReadLine());
+//}
+
+//foreach (int i in nums)
 //{
 //    sum += i;
 //}
